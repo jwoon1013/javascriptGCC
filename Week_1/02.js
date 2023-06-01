@@ -22,7 +22,7 @@ console.log(typeof num3);
 // 1-4. NaN (not a number 숫자가 아닌 값)
 let num4= "Hello" /2;
 console.log(num4); // 결과 NaN = Not a number 의 약자
-console.log(typeof num4);
+console.log(typeof num4); // number (숫자가 아니지만, 숫자다?)
 
 // 1-5. infinity
 let num5 = 1/0;
