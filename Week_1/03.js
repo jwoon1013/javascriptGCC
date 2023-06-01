@@ -37,3 +37,5 @@ console.log(result3); // 배열 형태로 저장됨
 console.log(typeof result3); //object
 
 
+
+
