@@ -10,14 +10,25 @@
 // 변수 참조 : 변수에 할당된 값을 읽어오는 것
 
 // 변수 선언하는 3가지 방법 : var , let , const
-// 1. var
+// 1. var (재선언 가능 / 재할당 가능)
 var myVar = "Hello World";
+var myVar = "Test 1"
+myVar = "GoodBye"
 console.log(myVar);
 
-// 2. let
+// 2. let (재선언 불가 / 재할당 가능)
 let myLet = "Hello World2";
+// let myLet = "Test 2" <- 오류 발생
+myLet = "GoodBye 2"
 console.log(myLet);
 
-// 3. const
+// 3. const (재선언 불가 / 재할당 불가)
 const myConst = "Hello World3"
+// const myConst = "Test 2" <- 오류 발생
+// myConst = "GoodBye 3"  <- 오류 발생
 console.log(myConst);
+
+// 변수 선언과 할당은 합쳐서 쓸 수도, 따로 쓸 수도 있다
+// var myVar1 = 3; 과 같다.
+var myVar1;
+myVar1 = 3;
